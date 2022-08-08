@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felipe Carballo</title>
+
+    <!--Estilos Css-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link id="theme" rel="stylesheet" href="css/green.css">
+
+    <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="/js/acordeon.js"></script>
+    <script src="/jquery-ui-1.13.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="/jquery-ui-1.13.2/jquery-ui.css">
+    <link rel="stylesheet" href="/jquery-ui-1.13.2/jquery-ui.structure.css">
+    <link rel="stylesheet" href="/jquery-ui-1.13.2/jquery-ui.theme.css">
+
+
+    <!--Moment-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/locale/es-mx.min.js"></script>
+
+    
+	<!-- Plugin validacion -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+
+    <!--Mis Scripts-->
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+            <!--Cabecera-->
+    <header>
+            <div id="logo">
+                <h1>Felipe Carballo</h1>
+            </div>
+
+
+
+            <nav  id="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Reloj</a></li>
+                    <li><a href="about.html">Sobre Mi</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+            
+
+        <div id="selector-theme">
+            <div id="to-green"></div>
+            <div id="to-red"></div>
+            <div id="to-blue"></div>
+        </div>
+    <section id="global">
+
+        <!--Cargar Reloj-->
+        <section id="content">
+            <div id="posts">
+                <article id="box">
+                   <!--Cargar formulario-->
+                   <h2>Contacto</h2>
+                   <form id="form_contact">
+                    <label for="name">Nombre:</label>
+                    <input type="text" name="name" data-validation="alphanumeric">
+                    <br>
+
+                    <label for="surname">Apellido:</label>
+                    <input type="text" name="surname" data-validation="alphanumeric">
+                    <br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" data-validation="email">
+                    <br>
+
+                    <label for="sex">Sexo:</label>
+                    <select name="sex" data-validation="required">
+                        <option value="men">Hombre</option>
+                        <option value="women">Mujer</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                    <br>
+
+                    <label for="date">Fecha de nacimiento:</label>
+                    <input type="text" id="datepicker" name="date" data-validation="date" data-validation-format="dd/mm/yyyy">
+
+                    <label for="years">Edad</label>
+                    <input type="number" name="years" data-validation="number">
+
+                    <input type="submit" value="Enviar">
+
+                   </form>
+                </article>
+                
+
+                
+            </div>
+        <aside id="sidebar">
+                <div id="about">
+                    <h4><span>Quien soy</span></h4>
+                    <img src="../img/caracol.jpg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus et explicabo repellat at aut vero vitae, qui illum nulla eaque quaerat animi reiciendis labore itaque impedit commodi soluta ipsa ullam.</p>
+                    <h4><span>Identificate</span></h4>
+                    <div id="login">
+                        <form>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="form_name">
+                        <br>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="form_email">
+                        <br>
+                        <label for="password">Pass</label>
+                        <input type="password" name="password" id="form_password">
+                        <br>
+                        <input type="submit" value="Entrar">
+                    </form>
+                    </div>
+                    
+                </div>
+                
+                </aside>
+        </section>
+        
+    </section>
+
+    <footer>
+        felipecarballowk@gmail.com &copy;
+
+        <a href="#" class="subir">Ir Arriba</a>
+    </footer>
+    
+</body>
+</html>

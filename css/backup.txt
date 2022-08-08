@@ -1,0 +1,162 @@
+
+#logo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    letter-spacing: 4px;
+    line-height: 55px;
+    background: #17801b;
+    color: whitesmoke;
+    text-align: center;
+    width: 320px;
+    height: 120px;
+    margin-bottom: 10px;
+    
+}
+
+nav ul{
+    display: flex;
+    flex-direction: auto;
+    
+}
+
+#menu{
+    font-family:  Helvetica, Arial, sans-serif;
+    background: #333;
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+
+#menu ul{
+    line-height: 46px;
+    border: 1px solid white;
+}
+
+#menu ul li{
+    height: 46px;
+    transition: all 300ms;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -ms-transition: all 300ms;
+    -o-transition: all 300ms;
+}
+
+#menu ul li:hover{
+    background: #17801b;
+}
+
+#menu a{
+    color: white;
+    text-decoration: none;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#posts{
+    width: 100%;
+    font-family:  Helvetica, Arial, sans-serif;
+    display: flex;
+}
+
+.post{
+    padding: 7px;
+}
+
+.post h2{
+    font-size: 20px;
+    color: #333;
+}
+
+.post .date{
+    display: block;
+    color: grey;
+    margin-top: 5px;
+}
+
+.post p{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    line-height: 17px;
+    text-align: justify;
+}
+
+.button-more{
+    font-size: 14px;
+    text-align: center;
+    padding: 15px;
+    background: #17801b;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+#sidebar{
+    font-family: Helvetica, Arial, sans-serif;
+
+    display: flex;
+}
+
+#sidebar h4{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: right;
+    line-height: 10px;
+    color: #333;
+    background: url(../img/lines.png);
+    display: flex;
+}
+
+#sidebar img{
+    width: 100%;
+}
+
+#sidebar p{
+    display: grid;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"]{
+ padding: 5px;
+ border-radius: 2px;
+ -webkit-border-radius: 2px;
+ -moz-border-radius: 2px;
+ -ms-border-radius: 2px;
+ -o-border-radius: 2px;
+ border: 1px solid #ccc;
+ width: 80%;
+ margin-bottom: 10px;
+ box-shadow: 0px 0px 2px grey;
+ margin-top: 5px;
+}
+
+form input[type="submit"]{
+    background: #eee;
+    padding: 5px;
+    border: 1px solid #ccc;
+    color: #333;
+    cursor: pointer;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    height: 47px;
+    background: rgba(51, 51, 51, 0.70);
+    margin: 0px auto;
+    width: 65%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    line-height: 47px;
+}
+
+.bx-wrapper, .bx-viewport{
+    height: 250px !important;
+    display: block !important;
+
+}

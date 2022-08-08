@@ -1,0 +1,5 @@
+// Acordeon
+
+$( function() {
+    $( "#accordion" ).accordion();
+  } );

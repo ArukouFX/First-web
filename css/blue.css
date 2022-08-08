@@ -1,0 +1,16 @@
+body{
+    background: url('../img/cielo.jpg');
+    background-attachment: fixed;
+}
+
+#logo{
+    background: #44cdff; 
+}
+
+#menu ul li:hover{
+    background: #44cdff;
+}
+
+.button-more{
+    background: #44cdff;
+}
